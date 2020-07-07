@@ -1,7 +1,5 @@
 package utils.restfulapi;
 
-import lombok.Getter;
-
 /**
  * 状态码 枚举
  */
@@ -16,10 +14,17 @@ public enum ResultCode {
     JSON_PARSE_ERROR(10003, "Json解析错误"),
     ILLEAGAL_STRING(15001, "非法字符串"),
     UNKNOW_ERROR(16000, "未知错误");
-    @Getter
     private Integer code;
-    @Getter
     private String message;
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
     ResultCode(Integer code, String message) {
         this.code = code;
         this.message = message;

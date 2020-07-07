@@ -3,6 +3,10 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="microk8s" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

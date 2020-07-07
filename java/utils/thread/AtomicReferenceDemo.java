@@ -1,17 +1,18 @@
 package utils.thread;
 
 import java.util.concurrent.atomic.AtomicReference;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 
 /**
  * @author zhangbaosheng
  */
-@Data
-@AllArgsConstructor
 class User{
     String name;
     int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
 
 public class AtomicReferenceDemo {
