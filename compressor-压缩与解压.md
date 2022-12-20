@@ -1,5 +1,4 @@
 # java常见压缩与解压算法
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dengjili/java-compress/pulls)
 [![GitHub Watch](https://img.shields.io/github/forks/dengjili/java-compress.svg?style=social&label=Watch)](https://github.com/dengjili/java-compress)
